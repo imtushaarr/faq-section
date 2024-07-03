@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section By Tushar Gupta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="faq">
+        <h1>General Questions</h1>
+        <div id="faq-ques" class="faq-ques">
+            <div class="ques">
+                <p>Do You Accept All Majore Credit Cards?</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="details">
+                <p>Yes, we accept all major credit cards including Visa, MasterCard, American Express, and Discover.</p>
+            </div>
+
+            <div class="ques">
+                <p>What Are Your Business Hours?</p>
+                <i class="fa-solid fa-angle-down"></i>   
+            </div>
+            <div class="details">
+                    <p>Our business hours are Monday to Friday, 9 AM to 6 PM.</p>
+                </div> 
+
+            <div class="ques">
+                <p>How Can I Contact Customer Support?</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="details">
+                <p>You can contact our customer support via email at support@example.com or call us at (123) 456-7890.</p>
+            </div>
+
+            <div class="ques">
+                <p>Do You Offer International Shipping?</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="details">
+                <p>Yes, we offer international shipping to most countries. Shipping fees and delivery times vary by location.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;    /* Centers vertically */
+        }
+        #faq{
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            text-align: center;
+            width: 880px;
+            height: 500px;
+            /* border: 1px solid black; */
+            border-radius: 20px;
+            background-color: #f1f5f8;
+        }
+
+        #faq h1{
+            font-family: "Style Script", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 48px;
+            color: #c59e60;
+        }
+
+        #faq-ques{
+            margin: 8px 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 23px;
+        }
+
+        .ques{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            /* border: 1px solid red; */
+            padding: 0px 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 7px 7px 15px #4c4c4c4d;
+        }
+
+        .ques p{
+            font: 12px;
+        }
+
+        .ques i{
+            color: #c59e60;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .details {
+            display: none;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 7px 7px 15px #4c4c4c4d;
+            text-align: left;
+            margin-top: -22px;
+        }
+
+        .ques.active {
+            /* Style for active question */
+        }
+
+        .details.active {
+            display: block;
+            /* Additional styles for active details */
+        }
+    </style>
+    
+    <script src="app.js"></script>
+</body>
+</html>
