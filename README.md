@@ -70,4 +70,4 @@ This project all credit goes to freeCodeCamp.org
 For questions, feedback, or suggestions, please feel free to reach out:
 
 - Email: tusharguptagps@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/imtushaarr)
+- LinkedIn: [Link](https://linkedin.com/in/imtushaarr)
